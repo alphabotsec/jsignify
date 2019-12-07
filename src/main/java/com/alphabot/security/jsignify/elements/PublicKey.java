@@ -15,7 +15,6 @@
 package com.alphabot.security.jsignify.elements;
 
 import com.alphabot.security.jsignify.common.FileUtil;
-import com.alphabot.security.jsignify.exception.VerificationFailedException;
 import com.google.common.base.Preconditions;
 import com.google.crypto.tink.subtle.ImmutableByteArray;
 

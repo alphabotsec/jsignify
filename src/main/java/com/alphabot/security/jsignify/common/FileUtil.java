@@ -14,8 +14,6 @@
 
 package com.alphabot.security.jsignify.common;
 
-import com.alphabot.security.jsignify.exception.VerificationFailedException;
-
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

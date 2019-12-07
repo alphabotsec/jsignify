@@ -15,7 +15,6 @@
 package com.alphabot.security.jsignify.elements;
 
 import com.alphabot.security.jsignify.common.FileUtil;
-import com.alphabot.security.jsignify.exception.VerificationFailedException;
 import com.google.common.base.Preconditions;
 import com.google.crypto.tink.subtle.ImmutableByteArray;
 
@@ -58,7 +57,7 @@ public final class Signature {
     return new Signature(algorithm, keyNumber, signature);
   }
 
-  public static Signature fromFile(Path signatureFile) throws VerificationFailedException, IOException {
+  public static Signature fromFile(Path signatureFile) throws IOException {
     Preconditions.checkNotNull(signatureFile, "signatureFile");
     String base64 = FileUtil.readBase64File(signatureFile);
     return Signature.fromBase64String(base64);
