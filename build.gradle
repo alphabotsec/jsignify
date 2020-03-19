@@ -10,7 +10,7 @@ java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
     group 'com.alphabot.security'
-    version '0.1-SNAPSHOT'
+    version '0.2-SNAPSHOT'
 }
 
 repositories {

@@ -33,7 +33,7 @@ try {
 * verifying a SHA-256 checksum list and the corresponding files
 
 ## Building
-To build JSignify locally you need at least a Java 8 JDK (e.g. OpenJDK). For development [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) can be used.
+To build JSignify locally you need at least a Java 11a JDK (e.g. OpenJDK). For development [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) can be used.
 
 Build with:
 
